@@ -9,7 +9,7 @@ if (process.env.MLAB_USERNAME_WEBDEV) {
 
   connectionString = "mongodb://" + "username" + ":" + password;
 
-  connectionString += "@ds0000.mlab.com:29004/dasdasds"; // use yours
+  connectionString += "@ds127954.mlab.com:27954/web_maker"; // use yours
 }
 
 var mongoose = require("mongoose");
