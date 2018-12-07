@@ -1,7 +1,5 @@
-//Express Library
 const express = require("express");
 const app = express();
-
 const bodyParser = require("body-parser");
 const http = require("http");
 const path = require("path");
@@ -22,7 +20,8 @@ app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Credentials", "true");
   next();
 });
-const port = process.env.PORT || "3200";
+
+const port = process.env.PORT || "3100";
 app.set("port", port);
 
 const server = http.createServer(app);
