@@ -7,7 +7,7 @@ if (process.env.MLAB_USERNAME_WEBDEV) {
 
   var password = process.env.MLAB_PASSWORD_WEBDEV;
 
-  connectionString = "mongodb://" + "username" + ":" + password;
+  connectionString = "mongodb://" + username + ":" + password;
 
   connectionString += "@ds127954.mlab.com:27954/web_maker"; // use yours
 }
