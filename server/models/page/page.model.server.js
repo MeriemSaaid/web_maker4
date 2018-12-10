@@ -8,7 +8,7 @@ PageModel.findAllPagesForWebsite = findAllPagesForWebsite;
 PageModel.findPageById = findPageById;
 PageModel.updatePage = updatePage;
 PageModel.deletePage = deletePage;
-//create a page
+//create a page ---
 function createPage(page) {
   return PageModel.create(page);
 }
